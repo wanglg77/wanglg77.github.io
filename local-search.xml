@@ -20,11 +20,11 @@
     
     <tags>
       
+      <tag>中医</tag>
+      
       <tag>张仲景</tag>
       
       <tag>伤寒杂病论</tag>
-      
-      <tag>中医</tag>
       
     </tags>
     
@@ -66,6 +66,41 @@
   
   
   <entry>
+    <title>既要手术做得漂亮，又要病案首页填得完美! 写给胸外科兄弟的40个“避坑”指南</title>
+    <link href="/%E8%83%B8%E5%A4%96%E7%A7%91%E9%A6%96%E9%A1%B5/"/>
+    <url>/%E8%83%B8%E5%A4%96%E7%A7%91%E9%A6%96%E9%A1%B5/</url>
+    
+    <content type="html"><![CDATA[<h1 id="既要手术做得漂亮，又要病案首页填得完美-写给胸外科兄弟的40个“避坑”指南"><a href="#既要手术做得漂亮，又要病案首页填得完美-写给胸外科兄弟的40个“避坑”指南" class="headerlink" title="既要手术做得漂亮，又要病案首页填得完美! 写给胸外科兄弟的40个“避坑”指南"></a>既要手术做得漂亮，又要病案首页填得完美! 写给胸外科兄弟的40个“避坑”指南</h1><p><img src="/%E8%83%B8%E5%A4%96%E7%A7%91%E9%A6%96%E9%A1%B5/file-20251226104150284.png"><br>昨天夜里11点，质管办的灯还亮着。</p><p>我和病案室的老陈对着胸外科上个月的DIP&#x2F;DRG入组数据，两人的眉头皱得能夹死一只苍蝇。</p><p>老陈指着屏幕上一行红字说：“主任，你看这个肺癌根治术，明明做了淋巴结清扫，首页手术栏里就是没填。这一漏，权重下来一大截，科室少拿钱不说，CMI值（病例组合指数）也上不去。”</p><p>我看着那个熟悉的医生名字——那是我们胸外的一把刀，手术做得行云流水，在省里都排得上号。可是在这个“数据为王”的时代，他的“漂亮手术”，在医保局的大数据系统里，可能只是一个“低权重、低难度”的普通病例。</p><p>这不仅是钱的事，这是<strong>尊严</strong>的事。</p><p>我们常说“拿手术刀的手，不屑于拿笔”。但在DRG&#x2F;DIP支付改革的洪流下，<strong>病案首页就是你的第二张脸。</strong> 手术做得再好，首页填不对，等于锦衣夜行，甚至会被系统误判为“低码高编”或者“服务能力不足”。</p><p>为了不让兄弟们的汗水白流，我结合《病历书写规范》和最新的国家临床版3.0&#x2F;2.0编码库，熬夜整理了胸外科最容易踩的40个“坑”。</p><p>这不是说教，这是<strong>保命秘籍</strong>。</p><p>建议胸外科的兄弟们收藏，并在交班会上花10分钟过一遍。</p><hr><p><img src="/%E8%83%B8%E5%A4%96%E7%A7%91%E9%A6%96%E9%A1%B5/file-20251226104006089.png"></p><h3 id="第一部分：诊断编码的20个“隐形地雷”"><a href="#第一部分：诊断编码的20个“隐形地雷”" class="headerlink" title="第一部分：诊断编码的20个“隐形地雷”"></a>第一部分：诊断编码的20个“隐形地雷”</h3><p>很多医生习惯写“简写”，但编码员需要的是“特指”。这中间的鸿沟，就是我们丢失的CMI。</p><table><thead><tr><th><strong>序号</strong></th><th><strong>临床习惯写法 (容易掉坑)</strong></th><th><strong>建议规范写法 (黄金标准)</strong></th><th><strong>质管办老白的一句话点评</strong></th></tr></thead><tbody><tr><td><strong>1</strong></td><td><strong>肺癌</strong></td><td><strong>右上叶肺恶性肿瘤</strong> (具体到肺叶)</td><td>别让系统猜是哪个叶，它猜不到就是“未特指”，权重打折。</td></tr><tr><td><strong>2</strong></td><td><strong>肺结节</strong></td><td><strong>肺占位性病变</strong> 或 <strong>肺良性肿瘤</strong> (确诊后)</td><td>“结节”是个影像学描述，不是诊断！病理出来后一定要修正！</td></tr><tr><td><strong>3</strong></td><td><strong>胸腔积液</strong></td><td><strong>恶性胸腔积液</strong> &#x2F; <strong>结核性胸膜炎</strong></td><td>性质不同，权重天差地别。如果是恶性，必须有细胞学依据。</td></tr><tr><td><strong>4</strong></td><td><strong>肺炎</strong></td><td><strong>肺炎克雷伯菌肺炎</strong> &#x2F; <strong>吸入性肺炎</strong></td><td>别只写J18.9(未特指肺炎)，那是“垃圾桶”编码。查到病原体一定要写！</td></tr><tr><td><strong>5</strong></td><td><strong>肋骨骨折</strong></td><td><strong>多发性肋骨骨折</strong> (具体根数)</td><td>一根和多根，单纯和合并血气胸，在DRG里是两个世界。</td></tr><tr><td><strong>6</strong></td><td><strong>呼吸衰竭</strong></td><td><strong>I型&#x2F;II型呼吸衰竭</strong> (区分急慢性)</td><td>只写“呼衰”？那是给自己找麻烦。必须分清急性、慢性还是慢性急性发作。</td></tr><tr><td><strong>7</strong></td><td><strong>贫血</strong></td><td><strong>急性失血性贫血</strong> (术后)</td><td>术前贫血是慢性的，术中出血导致的是急性的，后者常作为严重并发症（MCC）。</td></tr><tr><td><strong>8</strong></td><td><strong>低蛋白血症</strong></td><td><strong>营养不良</strong> &#x2F; <strong>低白蛋白血症</strong></td><td>只有低于30g&#x2F;L且有处理（输白蛋白）才能算并发症，否则别瞎填。</td></tr><tr><td><strong>9</strong></td><td><strong>心律失常</strong></td><td><strong>心房颤动</strong> (阵发性&#x2F;持续性)</td><td>术后新发的房颤是重要并发症，别漏了！</td></tr><tr><td><strong>10</strong></td><td><strong>高血压</strong></td><td><strong>高血压3级 (极高危)</strong></td><td>“高血压”三个字太单薄，分级分层体现病情复杂度。</td></tr><tr><td><strong>11</strong></td><td><strong>糖尿病</strong></td><td><strong>2型糖尿病伴并发症</strong></td><td>只要有眼底、肾脏、神经并发症，都要带出来，这是基础病权重的来源。</td></tr><tr><td><strong>12</strong></td><td><strong>电解质紊乱</strong></td><td><strong>低钾血症</strong></td><td>同样，要有纠正治疗才能写。一过性的别往上堆。</td></tr><tr><td><strong>13</strong></td><td><strong>肺不张</strong></td><td><strong>术后肺不张</strong></td><td>区分是疾病造成的（如肿瘤堵塞）还是术后并发症。</td></tr><tr><td><strong>14</strong></td><td><strong>纵隔肿瘤</strong></td><td><strong>前纵隔良性肿瘤</strong> (具体部位+性质)</td><td>纵隔很大，前后中上下，性质良恶，必须精准。</td></tr><tr><td><strong>15</strong></td><td><strong>气胸</strong></td><td><strong>自发性张力性气胸</strong></td><td>“气胸”太泛，是外伤？自发？还是医源性？是否有张力？</td></tr><tr><td><strong>16</strong></td><td><strong>肺大疱</strong></td><td><strong>肺大疱伴感染</strong></td><td>单纯肺大疱和伴有感染、出血的肺大疱，资源消耗完全不同。</td></tr><tr><td><strong>17</strong></td><td><strong>咯血</strong></td><td><strong>支气管扩张伴咯血</strong></td><td>咯血是症状，尽量找原因作为主诊，咯血作为副诊。</td></tr><tr><td><strong>18</strong></td><td><strong>术后感染</strong></td><td><strong>手术切口感染</strong> &#x2F; <strong>胸腔内感染</strong></td><td>这是不良事件，也是并发症。虽然影响绩效，但必须实事求是（这也是为了保护自己）。</td></tr><tr><td><strong>19</strong></td><td><strong>转移癌</strong></td><td><strong>骨继发恶性肿瘤</strong> &#x2F; <strong>脑继发…</strong></td><td>胸外只管肺？错！全身转移情况决定了病人的整体极度，漏填就是亏。</td></tr><tr><td><strong>20</strong></td><td><strong>既往史</strong></td><td><strong>陈旧性心肌梗死</strong> &#x2F; <strong>脑梗死后遗症</strong></td><td>别把既往史只写在病程里！首页副诊断栏里，它们能体现患者的基础状况。</td></tr></tbody></table><hr><h3 id="第二部分：手术操作编码的20个“原本可以更值钱”的失误"><a href="#第二部分：手术操作编码的20个“原本可以更值钱”的失误" class="headerlink" title="第二部分：手术操作编码的20个“原本可以更值钱”的失误"></a>第二部分：手术操作编码的20个“原本可以更值钱”的失误</h3><p><em>(配图建议：手术室无影灯下的特写，聚焦在精细的操作上)</em></p><p>胸外科现在全是微创，VATS（电视辅助胸腔镜手术）是标配。但是，编码如果不体现“胸腔镜”，你做的就是“开胸”，在很多DRG分组里，这会被分到不同的组，甚至被误判。</p><table><thead><tr><th><strong>序号</strong></th><th><strong>常见漏填&#x2F;错填</strong></th><th><strong>规范操作名称 (含金量所在)</strong></th><th><strong>白衣狼解析</strong></th></tr></thead><tbody><tr><td><strong>1</strong></td><td><strong>只填“肺叶切除术”</strong></td><td><strong>胸腔镜下肺叶切除术</strong></td><td>漏了“胸腔镜”三个字，技术难度分瞬间掉档。</td></tr><tr><td><strong>2</strong></td><td><strong>漏填“胸膜粘连烙断”</strong></td><td><strong>胸腔镜下胸膜粘连松解术</strong></td><td>只要进胸发现粘连并处理了，这就是必须要填的操作！体现了手术难度。</td></tr><tr><td><strong>3</strong></td><td><strong>淋巴结采样 vs 清扫</strong></td><td><strong>胸腔镜下纵隔淋巴结清扫术</strong></td><td>到底是采样还是根治性清扫？编码完全不同。清扫一定要注明区域。</td></tr><tr><td><strong>4</strong></td><td><strong>肺段 vs 肺叶</strong></td><td><strong>胸腔镜下肺段切除术</strong></td><td>早期肺癌做肺段，技术要求更高，别顺手写成肺叶或楔形切除。</td></tr><tr><td><strong>5</strong></td><td><strong>楔形切除</strong></td><td><strong>胸腔镜下肺病损切除术</strong></td><td>很多时候楔形切除对应的是病损切除，需区分。</td></tr><tr><td><strong>6</strong></td><td><strong>中转开胸</strong></td><td><strong>胸腔镜中转开胸手术</strong></td><td>如果中途转开胸，两个过程都要体现，说明了抢救或复杂情况。</td></tr><tr><td><strong>7</strong></td><td><strong>胸腔闭式引流</strong></td><td><strong>胸腔闭式引流术</strong></td><td>这是一个单独的手术操作，别因为太常见就以为包含在主手术里了，特别是单独收费时。</td></tr><tr><td><strong>8</strong></td><td><strong>支气管镜</strong></td><td><strong>纤维支气管镜检查&#x2F;灌洗&#x2F;活检</strong></td><td>术中或术后做的镜子，都是有编码的。</td></tr><tr><td><strong>9</strong></td><td><strong>深静脉置管</strong></td><td><strong>中心静脉置管术 (CVC&#x2F;PICC)</strong></td><td>这体现了护理级别和重症监护程度。</td></tr><tr><td><strong>10</strong></td><td><strong>呼吸机治疗</strong></td><td><strong>有创机械通气 (&gt;&#x3D;96小时 或 &lt;96小时)</strong></td><td>重症的关键指标！时间节点卡在96小时，务必精确。</td></tr><tr><td><strong>11</strong></td><td><strong>肋骨内固定</strong></td><td><strong>肋骨骨折切开复位内固定术</strong></td><td>填清楚固定了“几处”或“几根”，这直接影响耗材和难度系数。</td></tr><tr><td><strong>12</strong></td><td><strong>胸导管结扎</strong></td><td><strong>胸导管结扎术</strong></td><td>治疗乳糜胸的关键操作，漏填等于白干。</td></tr><tr><td><strong>13</strong></td><td><strong>心包开窗</strong></td><td><strong>经胸腔镜心包开窗引流术</strong></td><td>处理恶性心包积液时常用，别漏。</td></tr><tr><td><strong>14</strong></td><td><strong>胸壁肿瘤</strong></td><td><strong>胸壁深部肿瘤切除术</strong></td><td>区分浅表和深部，涉及骨骼切除的更要单独列出。</td></tr><tr><td><strong>15</strong></td><td><strong>食管癌根治</strong></td><td><strong>胸腹二切口&#x2F;三切口食管癌根治术</strong></td><td>不同的入路（Ivor-Lewis, McKeown）对应不同的编码组合，切口数量要体现。</td></tr><tr><td><strong>16</strong></td><td><strong>吻合口</strong></td><td><strong>食管-胃颈部&#x2F;胸内吻合术</strong></td><td>吻合口位置决定了手术分类。</td></tr><tr><td><strong>17</strong></td><td><strong>输血</strong></td><td><strong>红细胞&#x2F;血浆输注</strong></td><td>输血也是一种操作治疗，首页反面有专门填的地方，也有对应的操作码。</td></tr><tr><td><strong>18</strong></td><td><strong>麻醉方式</strong></td><td><strong>全身麻醉</strong></td><td>虽然系统常默认，但核对一下没坏处，特别是做了神经阻滞的。</td></tr><tr><td><strong>19</strong></td><td><strong>胸膜固定</strong></td><td><strong>胸膜化学固定术</strong></td><td>注入滑石粉或药物，这是独立操作。</td></tr><tr><td><strong>20</strong></td><td><strong>术中冰冻</strong></td><td><strong>术中病理冰冻切片</strong></td><td>虽然是病理科做，但作为手术流程的一部分，体现了多学科协作。</td></tr></tbody></table><hr><h3 id="三点碎碎念，致每一位在临床一线的战友"><a href="#三点碎碎念，致每一位在临床一线的战友" class="headerlink" title="三点碎碎念，致每一位在临床一线的战友"></a>三点碎碎念，致每一位在临床一线的战友</h3><ol><li>诊断不是越少越好，也不是越多越好，而是要“准”。</li></ol><p>很多医生怕麻烦，觉得写多了被质控扣分。其实，根据我们最近下发的《病历书写规范》（深盐医〔2024〕98号），完整的诊断链条才是保护你的盾牌。主要诊断选择错误（比如把入院目的是化疗选成了肺癌），直接导致入组错误，这是原则性错误。</p><ol start="2"><li>首页是写给“机器人”看的。</li></ol><p>DRG的分组器是没有感情的。你写“肺CA”，它可能识别；你写“右肺上叶恶性肿瘤”，它不仅识别，还能精准定位。我们不仅要懂治病，还要懂“翻译”，把我们的临床智慧翻译成国家标准编码语言。</p><ol start="3"><li>沟通，还是沟通。</li></ol><p>临床医生和编码员不是冤家，是战友。遇到拿不准的，给病案室打个电话，或者来质管办喝杯茶。我们不怕你问，就怕你瞎填。</p><p>最后，我想说：</p><p>医疗质量管理，从来不是为了以此来“整”大家。</p><p>我们做这些枯燥的数据清洗、编码校对，唯一的目的，就是让大家的辛苦付出，在数据层面得到应有的尊重和回报。</p><p>别让那台完美的VATS肺叶切除术，因为一行漏填的代码，变得黯淡无光。</p><p>如果你觉得这篇避坑指南有用，请转发给你的规培生、进修医生，还有那个总是熬夜写病历的自己。</p><hr><p><strong>我是白衣狼，一个懂点数据、懂点临床、更懂你的医院质量管理者。</strong></p><p>如果这篇文字戳中了你，请点赞、在看、转发，让更多同行看到。</p><p>关注我，我们在医疗质量管理的深水区，一起通过。</p><hr><p><em>参考资料：</em></p><ol><li><p><em>《国家临床版3.0手术操作编码》</em></p></li><li><p><em>《国家临床版2.0疾病诊断编码》</em></p></li><li><p><em>《医疗质量管理与控制指标汇编8.0版》</em></p></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>医矩方圆</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>培训</tag>
+      
+      <tag>病案首页</tag>
+      
+      <tag>编码</tag>
+      
+      <tag>病历书写</tag>
+      
+      <tag>病历质控</tag>
+      
+      <tag>胸外科</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>手腕一动就钻心疼？不是娇气，是你的肌腱在“闹罢工”！这篇“救手指南”请查收</title>
     <link href="/%E8%85%B1%E9%9E%98%E7%82%8E/"/>
     <url>/%E8%85%B1%E9%9E%98%E7%82%8E/</url>
@@ -93,41 +128,6 @@
       <tag>肌腱</tag>
       
       <tag>腱鞘</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>既要手术做得漂亮，又要病案首页填得完美! 写给胸外科兄弟的40个“避坑”指南</title>
-    <link href="/%E8%83%B8%E5%A4%96%E7%A7%91%E9%A6%96%E9%A1%B5/"/>
-    <url>/%E8%83%B8%E5%A4%96%E7%A7%91%E9%A6%96%E9%A1%B5/</url>
-    
-    <content type="html"><![CDATA[<h1 id="既要手术做得漂亮，又要病案首页填得完美-写给胸外科兄弟的40个“避坑”指南"><a href="#既要手术做得漂亮，又要病案首页填得完美-写给胸外科兄弟的40个“避坑”指南" class="headerlink" title="既要手术做得漂亮，又要病案首页填得完美! 写给胸外科兄弟的40个“避坑”指南"></a>既要手术做得漂亮，又要病案首页填得完美! 写给胸外科兄弟的40个“避坑”指南</h1><p><img src="/%E8%83%B8%E5%A4%96%E7%A7%91%E9%A6%96%E9%A1%B5/file-20251226104150284.png"><br>昨天夜里11点，质管办的灯还亮着。</p><p>我和病案室的老陈对着胸外科上个月的DIP&#x2F;DRG入组数据，两人的眉头皱得能夹死一只苍蝇。</p><p>老陈指着屏幕上一行红字说：“主任，你看这个肺癌根治术，明明做了淋巴结清扫，首页手术栏里就是没填。这一漏，权重下来一大截，科室少拿钱不说，CMI值（病例组合指数）也上不去。”</p><p>我看着那个熟悉的医生名字——那是我们胸外的一把刀，手术做得行云流水，在省里都排得上号。可是在这个“数据为王”的时代，他的“漂亮手术”，在医保局的大数据系统里，可能只是一个“低权重、低难度”的普通病例。</p><p>这不仅是钱的事，这是<strong>尊严</strong>的事。</p><p>我们常说“拿手术刀的手，不屑于拿笔”。但在DRG&#x2F;DIP支付改革的洪流下，<strong>病案首页就是你的第二张脸。</strong> 手术做得再好，首页填不对，等于锦衣夜行，甚至会被系统误判为“低码高编”或者“服务能力不足”。</p><p>为了不让兄弟们的汗水白流，我结合《病历书写规范》和最新的国家临床版3.0&#x2F;2.0编码库，熬夜整理了胸外科最容易踩的40个“坑”。</p><p>这不是说教，这是<strong>保命秘籍</strong>。</p><p>建议胸外科的兄弟们收藏，并在交班会上花10分钟过一遍。</p><hr><p><img src="/%E8%83%B8%E5%A4%96%E7%A7%91%E9%A6%96%E9%A1%B5/file-20251226104006089.png"></p><h3 id="第一部分：诊断编码的20个“隐形地雷”"><a href="#第一部分：诊断编码的20个“隐形地雷”" class="headerlink" title="第一部分：诊断编码的20个“隐形地雷”"></a>第一部分：诊断编码的20个“隐形地雷”</h3><p>很多医生习惯写“简写”，但编码员需要的是“特指”。这中间的鸿沟，就是我们丢失的CMI。</p><table><thead><tr><th><strong>序号</strong></th><th><strong>临床习惯写法 (容易掉坑)</strong></th><th><strong>建议规范写法 (黄金标准)</strong></th><th><strong>质管办老白的一句话点评</strong></th></tr></thead><tbody><tr><td><strong>1</strong></td><td><strong>肺癌</strong></td><td><strong>右上叶肺恶性肿瘤</strong> (具体到肺叶)</td><td>别让系统猜是哪个叶，它猜不到就是“未特指”，权重打折。</td></tr><tr><td><strong>2</strong></td><td><strong>肺结节</strong></td><td><strong>肺占位性病变</strong> 或 <strong>肺良性肿瘤</strong> (确诊后)</td><td>“结节”是个影像学描述，不是诊断！病理出来后一定要修正！</td></tr><tr><td><strong>3</strong></td><td><strong>胸腔积液</strong></td><td><strong>恶性胸腔积液</strong> &#x2F; <strong>结核性胸膜炎</strong></td><td>性质不同，权重天差地别。如果是恶性，必须有细胞学依据。</td></tr><tr><td><strong>4</strong></td><td><strong>肺炎</strong></td><td><strong>肺炎克雷伯菌肺炎</strong> &#x2F; <strong>吸入性肺炎</strong></td><td>别只写J18.9(未特指肺炎)，那是“垃圾桶”编码。查到病原体一定要写！</td></tr><tr><td><strong>5</strong></td><td><strong>肋骨骨折</strong></td><td><strong>多发性肋骨骨折</strong> (具体根数)</td><td>一根和多根，单纯和合并血气胸，在DRG里是两个世界。</td></tr><tr><td><strong>6</strong></td><td><strong>呼吸衰竭</strong></td><td><strong>I型&#x2F;II型呼吸衰竭</strong> (区分急慢性)</td><td>只写“呼衰”？那是给自己找麻烦。必须分清急性、慢性还是慢性急性发作。</td></tr><tr><td><strong>7</strong></td><td><strong>贫血</strong></td><td><strong>急性失血性贫血</strong> (术后)</td><td>术前贫血是慢性的，术中出血导致的是急性的，后者常作为严重并发症（MCC）。</td></tr><tr><td><strong>8</strong></td><td><strong>低蛋白血症</strong></td><td><strong>营养不良</strong> &#x2F; <strong>低白蛋白血症</strong></td><td>只有低于30g&#x2F;L且有处理（输白蛋白）才能算并发症，否则别瞎填。</td></tr><tr><td><strong>9</strong></td><td><strong>心律失常</strong></td><td><strong>心房颤动</strong> (阵发性&#x2F;持续性)</td><td>术后新发的房颤是重要并发症，别漏了！</td></tr><tr><td><strong>10</strong></td><td><strong>高血压</strong></td><td><strong>高血压3级 (极高危)</strong></td><td>“高血压”三个字太单薄，分级分层体现病情复杂度。</td></tr><tr><td><strong>11</strong></td><td><strong>糖尿病</strong></td><td><strong>2型糖尿病伴并发症</strong></td><td>只要有眼底、肾脏、神经并发症，都要带出来，这是基础病权重的来源。</td></tr><tr><td><strong>12</strong></td><td><strong>电解质紊乱</strong></td><td><strong>低钾血症</strong></td><td>同样，要有纠正治疗才能写。一过性的别往上堆。</td></tr><tr><td><strong>13</strong></td><td><strong>肺不张</strong></td><td><strong>术后肺不张</strong></td><td>区分是疾病造成的（如肿瘤堵塞）还是术后并发症。</td></tr><tr><td><strong>14</strong></td><td><strong>纵隔肿瘤</strong></td><td><strong>前纵隔良性肿瘤</strong> (具体部位+性质)</td><td>纵隔很大，前后中上下，性质良恶，必须精准。</td></tr><tr><td><strong>15</strong></td><td><strong>气胸</strong></td><td><strong>自发性张力性气胸</strong></td><td>“气胸”太泛，是外伤？自发？还是医源性？是否有张力？</td></tr><tr><td><strong>16</strong></td><td><strong>肺大疱</strong></td><td><strong>肺大疱伴感染</strong></td><td>单纯肺大疱和伴有感染、出血的肺大疱，资源消耗完全不同。</td></tr><tr><td><strong>17</strong></td><td><strong>咯血</strong></td><td><strong>支气管扩张伴咯血</strong></td><td>咯血是症状，尽量找原因作为主诊，咯血作为副诊。</td></tr><tr><td><strong>18</strong></td><td><strong>术后感染</strong></td><td><strong>手术切口感染</strong> &#x2F; <strong>胸腔内感染</strong></td><td>这是不良事件，也是并发症。虽然影响绩效，但必须实事求是（这也是为了保护自己）。</td></tr><tr><td><strong>19</strong></td><td><strong>转移癌</strong></td><td><strong>骨继发恶性肿瘤</strong> &#x2F; <strong>脑继发…</strong></td><td>胸外只管肺？错！全身转移情况决定了病人的整体极度，漏填就是亏。</td></tr><tr><td><strong>20</strong></td><td><strong>既往史</strong></td><td><strong>陈旧性心肌梗死</strong> &#x2F; <strong>脑梗死后遗症</strong></td><td>别把既往史只写在病程里！首页副诊断栏里，它们能体现患者的基础状况。</td></tr></tbody></table><hr><h3 id="第二部分：手术操作编码的20个“原本可以更值钱”的失误"><a href="#第二部分：手术操作编码的20个“原本可以更值钱”的失误" class="headerlink" title="第二部分：手术操作编码的20个“原本可以更值钱”的失误"></a>第二部分：手术操作编码的20个“原本可以更值钱”的失误</h3><p><em>(配图建议：手术室无影灯下的特写，聚焦在精细的操作上)</em></p><p>胸外科现在全是微创，VATS（电视辅助胸腔镜手术）是标配。但是，编码如果不体现“胸腔镜”，你做的就是“开胸”，在很多DRG分组里，这会被分到不同的组，甚至被误判。</p><table><thead><tr><th><strong>序号</strong></th><th><strong>常见漏填&#x2F;错填</strong></th><th><strong>规范操作名称 (含金量所在)</strong></th><th><strong>白衣狼解析</strong></th></tr></thead><tbody><tr><td><strong>1</strong></td><td><strong>只填“肺叶切除术”</strong></td><td><strong>胸腔镜下肺叶切除术</strong></td><td>漏了“胸腔镜”三个字，技术难度分瞬间掉档。</td></tr><tr><td><strong>2</strong></td><td><strong>漏填“胸膜粘连烙断”</strong></td><td><strong>胸腔镜下胸膜粘连松解术</strong></td><td>只要进胸发现粘连并处理了，这就是必须要填的操作！体现了手术难度。</td></tr><tr><td><strong>3</strong></td><td><strong>淋巴结采样 vs 清扫</strong></td><td><strong>胸腔镜下纵隔淋巴结清扫术</strong></td><td>到底是采样还是根治性清扫？编码完全不同。清扫一定要注明区域。</td></tr><tr><td><strong>4</strong></td><td><strong>肺段 vs 肺叶</strong></td><td><strong>胸腔镜下肺段切除术</strong></td><td>早期肺癌做肺段，技术要求更高，别顺手写成肺叶或楔形切除。</td></tr><tr><td><strong>5</strong></td><td><strong>楔形切除</strong></td><td><strong>胸腔镜下肺病损切除术</strong></td><td>很多时候楔形切除对应的是病损切除，需区分。</td></tr><tr><td><strong>6</strong></td><td><strong>中转开胸</strong></td><td><strong>胸腔镜中转开胸手术</strong></td><td>如果中途转开胸，两个过程都要体现，说明了抢救或复杂情况。</td></tr><tr><td><strong>7</strong></td><td><strong>胸腔闭式引流</strong></td><td><strong>胸腔闭式引流术</strong></td><td>这是一个单独的手术操作，别因为太常见就以为包含在主手术里了，特别是单独收费时。</td></tr><tr><td><strong>8</strong></td><td><strong>支气管镜</strong></td><td><strong>纤维支气管镜检查&#x2F;灌洗&#x2F;活检</strong></td><td>术中或术后做的镜子，都是有编码的。</td></tr><tr><td><strong>9</strong></td><td><strong>深静脉置管</strong></td><td><strong>中心静脉置管术 (CVC&#x2F;PICC)</strong></td><td>这体现了护理级别和重症监护程度。</td></tr><tr><td><strong>10</strong></td><td><strong>呼吸机治疗</strong></td><td><strong>有创机械通气 (&gt;&#x3D;96小时 或 &lt;96小时)</strong></td><td>重症的关键指标！时间节点卡在96小时，务必精确。</td></tr><tr><td><strong>11</strong></td><td><strong>肋骨内固定</strong></td><td><strong>肋骨骨折切开复位内固定术</strong></td><td>填清楚固定了“几处”或“几根”，这直接影响耗材和难度系数。</td></tr><tr><td><strong>12</strong></td><td><strong>胸导管结扎</strong></td><td><strong>胸导管结扎术</strong></td><td>治疗乳糜胸的关键操作，漏填等于白干。</td></tr><tr><td><strong>13</strong></td><td><strong>心包开窗</strong></td><td><strong>经胸腔镜心包开窗引流术</strong></td><td>处理恶性心包积液时常用，别漏。</td></tr><tr><td><strong>14</strong></td><td><strong>胸壁肿瘤</strong></td><td><strong>胸壁深部肿瘤切除术</strong></td><td>区分浅表和深部，涉及骨骼切除的更要单独列出。</td></tr><tr><td><strong>15</strong></td><td><strong>食管癌根治</strong></td><td><strong>胸腹二切口&#x2F;三切口食管癌根治术</strong></td><td>不同的入路（Ivor-Lewis, McKeown）对应不同的编码组合，切口数量要体现。</td></tr><tr><td><strong>16</strong></td><td><strong>吻合口</strong></td><td><strong>食管-胃颈部&#x2F;胸内吻合术</strong></td><td>吻合口位置决定了手术分类。</td></tr><tr><td><strong>17</strong></td><td><strong>输血</strong></td><td><strong>红细胞&#x2F;血浆输注</strong></td><td>输血也是一种操作治疗，首页反面有专门填的地方，也有对应的操作码。</td></tr><tr><td><strong>18</strong></td><td><strong>麻醉方式</strong></td><td><strong>全身麻醉</strong></td><td>虽然系统常默认，但核对一下没坏处，特别是做了神经阻滞的。</td></tr><tr><td><strong>19</strong></td><td><strong>胸膜固定</strong></td><td><strong>胸膜化学固定术</strong></td><td>注入滑石粉或药物，这是独立操作。</td></tr><tr><td><strong>20</strong></td><td><strong>术中冰冻</strong></td><td><strong>术中病理冰冻切片</strong></td><td>虽然是病理科做，但作为手术流程的一部分，体现了多学科协作。</td></tr></tbody></table><hr><h3 id="三点碎碎念，致每一位在临床一线的战友"><a href="#三点碎碎念，致每一位在临床一线的战友" class="headerlink" title="三点碎碎念，致每一位在临床一线的战友"></a>三点碎碎念，致每一位在临床一线的战友</h3><ol><li>诊断不是越少越好，也不是越多越好，而是要“准”。</li></ol><p>很多医生怕麻烦，觉得写多了被质控扣分。其实，根据我们最近下发的《病历书写规范》（深盐医〔2024〕98号），完整的诊断链条才是保护你的盾牌。主要诊断选择错误（比如把入院目的是化疗选成了肺癌），直接导致入组错误，这是原则性错误。</p><ol start="2"><li>首页是写给“机器人”看的。</li></ol><p>DRG的分组器是没有感情的。你写“肺CA”，它可能识别；你写“右肺上叶恶性肿瘤”，它不仅识别，还能精准定位。我们不仅要懂治病，还要懂“翻译”，把我们的临床智慧翻译成国家标准编码语言。</p><ol start="3"><li>沟通，还是沟通。</li></ol><p>临床医生和编码员不是冤家，是战友。遇到拿不准的，给病案室打个电话，或者来质管办喝杯茶。我们不怕你问，就怕你瞎填。</p><p>最后，我想说：</p><p>医疗质量管理，从来不是为了以此来“整”大家。</p><p>我们做这些枯燥的数据清洗、编码校对，唯一的目的，就是让大家的辛苦付出，在数据层面得到应有的尊重和回报。</p><p>别让那台完美的VATS肺叶切除术，因为一行漏填的代码，变得黯淡无光。</p><p>如果你觉得这篇避坑指南有用，请转发给你的规培生、进修医生，还有那个总是熬夜写病历的自己。</p><hr><p><strong>我是白衣狼，一个懂点数据、懂点临床、更懂你的医院质量管理者。</strong></p><p>如果这篇文字戳中了你，请点赞、在看、转发，让更多同行看到。</p><p>关注我，我们在医疗质量管理的深水区，一起通过。</p><hr><p><em>参考资料：</em></p><ol><li><p><em>《国家临床版3.0手术操作编码》</em></p></li><li><p><em>《国家临床版2.0疾病诊断编码》</em></p></li><li><p><em>《医疗质量管理与控制指标汇编8.0版》</em></p></li></ol>]]></content>
-    
-    
-    <categories>
-      
-      <category>医矩方圆</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>培训</tag>
-      
-      <tag>病历书写</tag>
-      
-      <tag>病案首页</tag>
-      
-      <tag>编码</tag>
-      
-      <tag>病历质控</tag>
-      
-      <tag>胸外科</tag>
       
     </tags>
     
@@ -179,9 +179,9 @@
     
     <tags>
       
-      <tag>中医</tag>
-      
       <tag>扁鹊</tag>
+      
+      <tag>中医</tag>
       
       <tag>脉象</tag>
       
