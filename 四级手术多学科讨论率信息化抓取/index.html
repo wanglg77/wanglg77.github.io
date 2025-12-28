@@ -1,0 +1,814 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="白衣狼">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="昨晚十一点，我还在对着PowerBI的仪表盘发呆。 屏幕上，那个绿色的柱状图高耸入云——“四级手术术前多学科讨论（MDT）完成率：100%”。 旁边还放着质管办小王刚送来的报表，上面也是这一行刺眼的数据。 我拿起电话，想给外科主任老张打过去，犹豫了一下又放下了。我知道他肯定会说：“老白啊，你是不是闲得慌？系统里不是都填了吗？你还想要啥？” 是啊，系统里都填了。 每一台四级手术的病历里，都安安稳稳地">
+<meta property="og:type" content="article">
+<meta property="og:title" content="别跟我说你的四级手术MDT率是100%：为了抓取这个指标，我差点和信息科打了一架">
+<meta property="og:url" content="http://example.com/%E5%9B%9B%E7%BA%A7%E6%89%8B%E6%9C%AF%E5%A4%9A%E5%AD%A6%E7%A7%91%E8%AE%A8%E8%AE%BA%E7%8E%87%E4%BF%A1%E6%81%AF%E5%8C%96%E6%8A%93%E5%8F%96/index.html">
+<meta property="og:site_name" content="狼叔的医质管空间">
+<meta property="og:description" content="昨晚十一点，我还在对着PowerBI的仪表盘发呆。 屏幕上，那个绿色的柱状图高耸入云——“四级手术术前多学科讨论（MDT）完成率：100%”。 旁边还放着质管办小王刚送来的报表，上面也是这一行刺眼的数据。 我拿起电话，想给外科主任老张打过去，犹豫了一下又放下了。我知道他肯定会说：“老白啊，你是不是闲得慌？系统里不是都填了吗？你还想要啥？” 是啊，系统里都填了。 每一台四级手术的病历里，都安安稳稳地">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-12-27T16:00:00.000Z">
+<meta property="article:modified_time" content="2025-12-28T02:10:17.836Z">
+<meta property="article:author" content="白衣狼">
+<meta property="article:tag" content="公众号">
+<meta property="article:tag" content="核心制度&#x2F;术前讨论">
+<meta property="article:tag" content="质量管理&#x2F;质量数据">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
+  
+  
+  <title>别跟我说你的四级手术MDT率是100%：为了抓取这个指标，我差点和信息科打了一架 - 狼叔的医质管空间</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 8.1.1"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>狼叔的医质管空间</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="别跟我说你的四级手术MDT率是100%：为了抓取这个指标，我差点和信息科打了一架"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2025-12-28 00:00" pubdate>
+          2025年12月28日 凌晨
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          2.1k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          18 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">别跟我说你的四级手术MDT率是100%：为了抓取这个指标，我差点和信息科打了一架</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <p>昨晚十一点，我还在对着PowerBI的仪表盘发呆。</p>
+<p>屏幕上，那个绿色的柱状图高耸入云——<strong>“四级手术术前多学科讨论（MDT）完成率：100%”。</strong></p>
+<p>旁边还放着质管办小王刚送来的报表，上面也是这一行刺眼的数据。</p>
+<p>我拿起电话，想给外科主任老张打过去，犹豫了一下又放下了。我知道他肯定会说：“老白啊，你是不是闲得慌？系统里不是都填了吗？你还想要啥？”</p>
+<p>是啊，系统里都填了。</p>
+<p>每一台四级手术的病历里，都安安稳稳地躺着一份《术前多学科讨论记录表》。</p>
+<p>字迹工整（复制粘贴），内容详实（全是套话），时间精准（就在手术切皮前那一秒）。</p>
+<p>但我知道，这100%是假的。</p>
+<p>或者说，这只是为了应付评审的一场“数字游戏”。</p>
+<p>今天，作为在医院质量管理坑里趴了十几年的老兵，我想跟大家聊聊这个让无数质控人头秃、让临床医生骂娘、让信息科想辞职的指标——<strong>四级手术术前多学科讨论完成率</strong>。</p>
+<p>如果不解决“抓取”的逻辑，这个指标永远只是个漂亮的泡沫。<br>![[四级手术多学科讨论率信息化抓取&#x2F;file-20251228101015799.png]]</p>
+<h3 id="一、-为什么大家都恨这个指标？"><a href="#一、-为什么大家都恨这个指标？" class="headerlink" title="一、 为什么大家都恨这个指标？"></a>一、 为什么大家都恨这个指标？</h3><p>首先，咱们得承认，四级手术风险极高。</p>
+<p>国家卫健委把它列为“年度国家医疗质量安全目标”，广东最新的《三级医院评审标准（2025版）》征求意见稿里，更是把它列为核心条款（见我手边这份文件《附件：广东省卫生健康委办公室关于征求…意见的通知.pdf》）。</p>
+<p>理论上：</p>
+<p>手术前，外科、麻醉、ICU、影像、护理大家坐在一起，喝着咖啡，看着片子，把手术风险聊透，定下最佳方案。</p>
+<p>实际上：</p>
+<p>外科医生忙得脚不沾地。</p>
+<p>“什么？切个肝还要叫影像科来聊天？片子我都看了八百遍了！”</p>
+<p>“麻醉科？麻醉科在手术室见就行了呗。”</p>
+<p>于是，为了应付指标，流程变成了这样：</p>
+<ol>
+<li><p>先把手术做了。</p>
+</li>
+<li><p>出院归档前，质控护士大吼一声：“四级手术MDT表没填！”</p>
+</li>
+<li><p>规培生连夜补录。找几个不相干的医生账号，“借”来签个名。</p>
+</li>
+<li><p><strong>系统抓取：有记录。指标：100%。</strong></p>
+</li>
+</ol>
+<p>患者安全了吗？没有。</p>
+<p>医生麻烦了吗？麻烦了。</p>
+<p>数据好看吗？好看了。</p>
+<p>这就是典型的“双输”。</p>
+<h3 id="二、-信息化抓取的“三大深坑”"><a href="#二、-信息化抓取的“三大深坑”" class="headerlink" title="二、 信息化抓取的“三大深坑”"></a>二、 信息化抓取的“三大深坑”</h3><p>为了打破这个僵局，我上周把信息科老李堵在机房，咱们必须得从<strong>底层逻辑</strong>上解决抓取问题。</p>
+<p>如果你是做质控的，或者你是管数据的，下面这三段话，建议你转给你们的信息科主任。</p>
+<h4 id="深坑一：分母是谁？（你以为你知道，其实你不知道）"><a href="#深坑一：分母是谁？（你以为你知道，其实你不知道）" class="headerlink" title="深坑一：分母是谁？（你以为你知道，其实你不知道）"></a>深坑一：分母是谁？（你以为你知道，其实你不知道）</h4><p>指标公式的分母是：<strong>同期四级手术总例数</strong>。</p>
+<p>听起来很简单？</p>
+<p>信息科老李当初也是这么认为的：“我直接抓手术麻醉系统里的四级手术不就行了？”</p>
+<p><strong>错！大错特错！</strong></p>
+<p>如果你抓<strong>术后</strong>的数据，那叫“死后验尸”。手术都做完了，你再告诉医生“你没做MDT”，除了罚款扣钱，对患者安全有半毛钱意义吗？</p>
+<p>我们要的是过程控制。</p>
+<p>所以，分母必须是**“计划进行的四级手术”**。</p>
+<p>但问题来了：</p>
+<ul>
+<li><p><strong>术前诊断变了怎么办？</strong> 术前以为是良性（三级），术中冰冻一看是恶性，扩大切除变成了四级。这时候系统拦截说“没做MDT不让做手术”，你是让医生把肚子缝上吗？</p>
+</li>
+<li><p><strong>编码映射问题：</strong> 医生开医嘱用的是临床俗称，手术分级目录里用的是标准名称（ICD-9-CM-3），这中间的映射关系如果不准，分母就是错的。</p>
+</li>
+</ul>
+<p>【白衣狼的解决方案】：</p>
+<p>不要抓“医嘱”，要抓**“手术申请单”**。</p>
+<p>在医生提交手术申请的那一刻，系统后台立刻拿“拟施手术名称”去比对最新的《手术分级目录》。</p>
+<ul>
+<li><p><strong>是四级？</strong> 触发MDT弹窗。</p>
+</li>
+<li><p><strong>急诊抢救？</strong> 给一个“紧急通道”按钮，允许跳过，但必须由科主任工号授权，并填写理由（事后重点审计）。</p>
+</li>
+</ul>
+<h4 id="深坑二：分子在哪？（不是写了字就算数）"><a href="#深坑二：分子在哪？（不是写了字就算数）" class="headerlink" title="深坑二：分子在哪？（不是写了字就算数）"></a>深坑二：分子在哪？（不是写了字就算数）</h4><p>这是最让我抓狂的。</p>
+<p>很多医院的电子病历里，MDT记录就是一段自由文本（Free Text）。</p>
+<p>医生在病程记录里写：“经多科室讨论，建议手术…”</p>
+<p>系统怎么抓？</p>
+<p>系统是傻的，它看不懂中文。它只能检索关键词。</p>
+<p>如果医生写“多学科会诊”，系统抓到了。</p>
+<p>如果医生写“全科讨论”，系统漏掉了。</p>
+<p>如果医生写“经与麻醉科沟通”，系统又懵了。</p>
+<p>【白衣狼的解决方案】：</p>
+<p>结构化！结构化！还是TMD结构化！</p>
+<p>我强推了《住院病历书写规范》（参考咱们刚发的深盐医〔2024〕98号文件）里的专用表单。</p>
+<p>在EMR系统里做一个独立的“四级手术MDT记录单”。</p>
+<ul>
+<li><p><strong>参与科室：</strong> 下拉菜单勾选（必须&gt;&#x3D;3个学科）。</p>
+</li>
+<li><p><strong>主持人：</strong> 必须是副高以上。</p>
+</li>
+<li><p><strong>讨论意见：</strong> 结构化选项（手术指征、风险评估、预案）+ 文本框。</p>
+</li>
+</ul>
+<p>只有填了这张特定的表单，系统才算分子+1。</p>
+<p>别让信息科去爬病程记录的文字，那是NLP（自然语言处理）干的事，咱们现在的HIS水平还干不了那个。</p>
+<h4 id="深坑三：控制力度（硬拦截还是软提醒？）"><a href="#深坑三：控制力度（硬拦截还是软提醒？）" class="headerlink" title="深坑三：控制力度（硬拦截还是软提醒？）"></a>深坑三：控制力度（硬拦截还是软提醒？）</h4><p>这是我和临床科主任吵架的焦点。</p>
+<p><strong>硬拦截：</strong> 没填MDT表单，手术申请单发不出去，手术室接不了台。</p>
+<ul>
+<li><p><em>优点：</em> 指标绝对漂亮，100%没跑。</p>
+</li>
+<li><p><em>缺点：</em> 临床暴走。遇到系统故障或者特殊情况，容易酿成医疗事故。</p>
+</li>
+</ul>
+<p><strong>软提醒：</strong> 弹窗提示“该手术为四级手术，请完成MDT”，但允许点“继续提交”。</p>
+<ul>
+<li><p><em>优点：</em> 流程顺畅，医生不抵触。</p>
+</li>
+<li><p><em>缺点：</em> 医生直接无视弹窗，指标继续烂。</p>
+</li>
+</ul>
+<p>【白衣狼的“阴险”折中招】：</p>
+<p>我管这个叫**“带刺的软提醒”**。</p>
+<ol>
+<li><p><strong>前端放行：</strong> 允许你点“继续”，不耽误手术排程。</p>
+</li>
+<li><p><strong>中端预警：</strong> 手术前一天下午4点，系统自动扫描次日手术名单。凡是四级且未完成MDT表单的，自动发送企业微信给<strong>科主任</strong>和<strong>主刀医生</strong>：“明日患者XXX手术MDT缺失，请及时补充，否则将触发质控扣分。”</p>
+</li>
+<li><p><strong>后端重罚：</strong> 如果做完了还没补，不仅扣单病种的分，直接挂钩科室绩效系数。</p>
+</li>
+</ol>
+<p>这时候，就不是我在逼他们，是<strong>系统规则</strong>在逼他们。</p>
+<h3 id="三、-给管理者的真心话"><a href="#三、-给管理者的真心话" class="headerlink" title="三、 给管理者的真心话"></a>三、 给管理者的真心话</h3><p>其实，搞这么多技术手段，我的核心目的根本不是那个“100%”。</p>
+<p>作为管理者，我们要清醒：</p>
+<p>四级手术MDT，本质上是医生给自己穿的“防弹衣”。</p>
+<p>在现在这个医患关系下，一个高风险手术，如果只有外科医生自己拍板，出了事就是你全责。</p>
+<p>如果有MDT记录，说明这是全院专家的集体智慧，是符合医疗常规的决策。</p>
+<p><strong>我们在帮医生“留痕”，更是在帮患者“避坑”。</strong></p>
+<p>现在，我们正尝试引入AI辅助。</p>
+<p>利用大模型（LLM）去阅读病历，自动生成MDT讨论的草稿，提取关键风险点，医生只需要审核、修改、签字。</p>
+<p>减少他们的工作量，才是让他们配合质控的唯一出路。</p>
+<h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>质量管理，从来不是坐在办公室里看报表。</p>
+<p>如果你也对着那个虚假的“100%”感到无力，不妨走出办公室，去手术室门口蹲一蹲，去信息科机房坐一坐。</p>
+<p><strong>数据是冰冷的，但背后的逻辑必须是滚烫的。</strong></p>
+<p>我是白衣狼，一个懂点数据、懂点代码、还在临床一线摸爬滚打的质管办主任。</p>
+<p>如果你觉得这篇文章戳中了你的痛点，<strong>请转发给你的院长和信息科主任看看。</strong></p>
+<hr>
+<p>关注【白衣狼医质管】</p>
+<p>👇 <strong>点击“阅读原文”，加入我们的医院质量破局者社群</strong></p>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%8C%BB%E7%9F%A9%E6%96%B9%E5%9C%86/" class="category-chain-item">医矩方圆</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/%E5%8C%BB%E7%9F%A9%E6%96%B9%E5%9C%86/%E8%B4%A8%E9%87%8F%E6%95%B0%E6%8D%AE/" class="category-chain-item">质量数据</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E8%B4%A8%E9%87%8F%E7%AE%A1%E7%90%86-%E8%B4%A8%E9%87%8F%E6%95%B0%E6%8D%AE/" class="print-no-link">#质量管理/质量数据</a>
+      
+        <a href="/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/" class="print-no-link">#公众号</a>
+      
+        <a href="/tags/%E6%A0%B8%E5%BF%83%E5%88%B6%E5%BA%A6-%E6%9C%AF%E5%89%8D%E8%AE%A8%E8%AE%BA/" class="print-no-link">#核心制度/术前讨论</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>别跟我说你的四级手术MDT率是100%：为了抓取这个指标，我差点和信息科打了一架</div>
+      <div>http://example.com/四级手术多学科讨论率信息化抓取/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>白衣狼</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2025年12月28日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/%E5%9B%9B%E7%BA%A7%E6%89%8B%E6%9C%AF%E5%A4%9A%E5%AD%A6%E7%A7%91%E8%AE%A8%E8%AE%BA%E7%8E%87/" title="四级手术“多学科讨论”：是救命的最后一道防线，还是病历里的一张废纸？">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">四级手术“多学科讨论”：是救命的最后一道防线，还是病历里的一张废纸？</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/%E6%88%91%E5%92%8C%E5%8D%8E%E4%BD%97%E7%BB%99%E6%9B%B9%E6%93%8D%E5%BC%80%E9%A2%85/" title="回到三国, 我和华佗给曹操开颅">
+                        <span class="hidden-mobile">回到三国, 我和华佗给曹操开颅</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+
+  
+
+</div>
+
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
