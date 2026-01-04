@@ -1,0 +1,725 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="白衣狼">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="你好，我是白衣狼。 如果你问我，作为一名资深医生、医疗质量管理者和整天琢磨大数据的IT发烧友，最想穿越回去见谁？ 不是那个开颅狂魔华佗，也不是那个搞“五禽戏”广场舞的张仲景。 我最想见的，是那个穿破了无数双草鞋，搞出了中国古代最大规模“医药数据库清洗工程”的倔老头——李时珍。 这不，就在昨晚整理医院HIS系统（医院信息系统）的药品字典库时，我因为几个异名同药的问题搞得头昏脑涨。恍惚间，一阵药香袭来">
+<meta property="og:type" content="article">
+<meta property="og:title" content="这里写文章的正式标题">
+<meta property="og:url" content="http://example.com/%E6%9D%8E%E6%97%B6%E7%8F%8D/index.html">
+<meta property="og:site_name" content="狼叔的医质管空间">
+<meta property="og:description" content="你好，我是白衣狼。 如果你问我，作为一名资深医生、医疗质量管理者和整天琢磨大数据的IT发烧友，最想穿越回去见谁？ 不是那个开颅狂魔华佗，也不是那个搞“五禽戏”广场舞的张仲景。 我最想见的，是那个穿破了无数双草鞋，搞出了中国古代最大规模“医药数据库清洗工程”的倔老头——李时珍。 这不，就在昨晚整理医院HIS系统（医院信息系统）的药品字典库时，我因为几个异名同药的问题搞得头昏脑涨。恍惚间，一阵药香袭来">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/%E6%9D%8E%E6%97%B6%E7%8F%8D/file-20260104101309053.png">
+<meta property="og:image" content="http://example.com/%E6%9D%8E%E6%97%B6%E7%8F%8D/file-20260104101332642.png">
+<meta property="og:image" content="http://example.com/%E6%9D%8E%E6%97%B6%E7%8F%8D/file-20260104101252188.png">
+<meta property="article:published_time" content="2026-01-04T02:08:06.639Z">
+<meta property="article:modified_time" content="2026-01-04T02:13:33.707Z">
+<meta property="article:author" content="白衣狼">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/%E6%9D%8E%E6%97%B6%E7%8F%8D/file-20260104101309053.png">
+  
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
+  
+  
+  <title>这里写文章的正式标题 - 狼叔的医质管空间</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 8.1.1"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>狼叔的医质管空间</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="这里写文章的正式标题"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2026-01-04 10:08" pubdate>
+          2026年1月4日 上午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          2.7k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          23 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">这里写文章的正式标题</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <p>你好，我是<strong>白衣狼</strong>。</p>
+<p>如果你问我，作为一名资深医生、医疗质量管理者和整天琢磨大数据的IT发烧友，最想穿越回去见谁？</p>
+<p>不是那个开颅狂魔华佗，也不是那个搞“五禽戏”广场舞的张仲景。</p>
+<p>我最想见的，是那个穿破了无数双草鞋，搞出了中国古代最大规模“医药数据库清洗工程”的倔老头——<strong>李时珍</strong>。</p>
+<p>这不，就在昨晚整理医院HIS系统（医院信息系统）的药品字典库时，我因为几个异名同药的问题搞得头昏脑涨。恍惚间，一阵药香袭来，我的白大褂变成了粗布长衫，手中的鼠标变成了一把药锄。</p>
+<p>我穿越了。地点：明朝，湖北蕲州。</p>
+<hr>
+<h3 id="一、-考场失意，是医学界的“至暗时刻”还是“黎明前夜”？"><a href="#一、-考场失意，是医学界的“至暗时刻”还是“黎明前夜”？" class="headerlink" title="一、 考场失意，是医学界的“至暗时刻”还是“黎明前夜”？"></a>一、 考场失意，是医学界的“至暗时刻”还是“黎明前夜”？</h3><p>我刚落地，就看到一个年轻人垂头丧气地坐在河边。</p>
+<p>这是嘉靖年间的李时珍。如果你翻翻他的履历，简直就是一部“考公血泪史”。这哥们儿十四岁就考中了秀才，大家都以为他是神童，结果后面三次考举人，<strong>三次落榜</strong>。</p>
+<p>我走过去，拍了拍他的肩膀，用我那充满磁性的“主任查房”嗓音说道：“东璧啊（李时珍字东璧），别难过。你是要是考上了公务员，也就是大明王朝多了一个混日子的县令；但你落榜了，中华民族才多了一位药圣。”</p>
+<p>年轻的李时珍抬头看了我一眼，眼神里全是迷茫：“白兄，我不甘心啊。难道我这辈子就只能是个走方郎中？”</p>
+<p>我笑了，心里想：<strong>郎中？你可是未来的全球医学KOL！</strong></p>
+<p>作为医疗质量管理者，我深知“标准化”的重要性。在李时珍那个年代，医学界处于一种“混沌”状态。之前的本草书，乱七八糟。</p>
+<p>“东璧，”我坐到他身边，“你有没有发现，现在的医书全是Bug？陶弘景的《本草经集注》虽然不错，但那是几百年前的老黄历了。很多药，张三说是治头的，李四说是治脚的；还有的药，明明是有毒的，书上却写着大补。”</p>
+<p>李时珍的眼睛突然亮了：“白兄所言极是！我行医时常发现，古书上记载的‘防葵’，有人画成那样，有人说成这样，甚至有人把它和一种毒草混淆，简直是草菅人命！”</p>
+<p>“所以啊，”我顺势点火，“既然官方不作为，这套‘由于历史原因造成的系统性错误’，得有人来修。这个大数据的清洗工作，还得你来做。”</p>
+<p>那一刻，我看到了他眼中的火苗。那不是求取功名的欲望，而是<strong>科学家对真理的偏执</strong>。</p>
+<hr>
+<h3 id="二、-一场说走就走的“硬核”旅行"><a href="#二、-一场说走就走的“硬核”旅行" class="headerlink" title="二、 一场说走就走的“硬核”旅行"></a>二、 一场说走就走的“硬核”旅行</h3><p>李时珍是个行动派。说干就干，他决定重修本草。</p>
+<p>这可不是在空调房里连着WiFi查知网。这是真正意义上的“田野调查”。我作为一个整天坐在电脑前搞信息化的现代人，跟着他简直是遭了老罪了。</p>
+<p>我们这一走，就是二十七年。</p>
+<h4 id="1-并没有浪漫的“采菊东篱下”"><a href="#1-并没有浪漫的“采菊东篱下”" class="headerlink" title="1. 并没有浪漫的“采菊东篱下”"></a>1. 并没有浪漫的“采菊东篱下”</h4><p>你们在课本里看到的李时珍采药图，是不是觉得很唯美？背着竹篓，云雾缭绕？</p>
+<p><strong>现实是：我们要命，真的要命。</strong></p>
+<p>有一次在武当山，为了搞清楚“曼陀罗花”的麻醉效果，这老头非要亲自试药。</p>
+<p><img src="/%E6%9D%8E%E6%97%B6%E7%8F%8D/file-20260104101309053.png" srcset="/img/loading.gif" lazyload></p>
+<p>我一把拉住他：“老李！这是曼陀罗！主要成分是东莨菪碱和阿托品，这玩意儿是M胆碱受体阻断剂，吃多了会谵妄、幻觉，甚至呼吸抑制挂掉的！”</p>
+<p>李时珍愣了一下：“白兄说的词儿我虽不懂，但‘神农尝百草’，不尝怎知其性？”</p>
+<p>他还是尝了。然后那晚，我看着这位未来的药圣对着月亮傻笑了半宿，手舞足蹈。我在旁边一边给他灌绿豆甘草汤，一边在我的“穿越日志”里记下：<em>患者李某，服用曼陀罗花，出现精神症状，目前生命体征尚平稳，但确实证明了此药有麻醉镇痛之效。</em></p>
+<h4 id="2-“穿山甲”到底是什么？"><a href="#2-“穿山甲”到底是什么？" class="headerlink" title="2. “穿山甲”到底是什么？"></a>2. “穿山甲”到底是什么？</h4><p>还有一次，为了搞清楚穿山甲的生活习性。古书上瞎扯，说穿山甲吃蚂蚁是靠张开鳞片，让蚂蚁爬进去，然后一闭合，把蚂蚁夹死，再到水里抖出来吃。</p>
+<p>作为一个搞科普的，我当时就吐槽：“这那是穿山甲啊，这是变形金刚吧？”</p>
+<p>李时珍也不信。于是，我们俩个大老爷们，蹲在深山老林的一个蚂蚁洞旁边，喂了一天的蚊子，就为了等一只穿山甲吃饭。</p>
+<p>终于，我们看到了！穿山甲伸出长长的舌头，黏住蚂蚁，直接吞得哧溜响。<br><img src="/%E6%9D%8E%E6%97%B6%E7%8F%8D/file-20260104101332642.png" srcset="/img/loading.gif" lazyload></p>
+<p>李时珍激动地拿出小本本（哪怕手都在抖）：<strong>“古书误我也！今亲见之，其舌长而有涎，粘蚁食之。”</strong></p>
+<p>我在旁边感慨：这就是最早的<strong>循证医学</strong>啊！不迷信权威，只相信事实。这要是放在今天，李时珍绝对是打假第一人。</p>
+<hr>
+<h3 id="三、-世界上最早的“数据库架构师”"><a href="#三、-世界上最早的“数据库架构师”" class="headerlink" title="三、 世界上最早的“数据库架构师”"></a>三、 世界上最早的“数据库架构师”</h3><p>走了几万里路，读了八百多种书，李时珍终于要把这些资料整理成书了。</p>
+<p>这里我必须得吹一波李时珍的<strong>信息架构能力</strong>。</p>
+<p>面对1892种药物，11096则药方，如果没有一个科学的分类法，这书写出来就是一堆废纸，根本没法检索。</p>
+<p>在那个没有Excel，没有SQL数据库的年代，李时珍创立了**“析族区类”**法。</p>
+<p>我看着他满屋子的手稿，仿佛看到了一个巨大的、乱码的数据库。</p>
+<p>“老李，你想怎么排？”我问。</p>
+<p>他沉思良久：“以前的书，分上、中、下三品，太粗糙。我要按物性来分。水、火、土、金石、草、谷、菜、果、木、服器、虫、鳞、介、禽、兽、人。”</p>
+<p>我一听，惊呆了。这不就是<strong>生物进化的逻辑</strong>吗？从无机物（水火土金石）到植物（草谷菜果木），再到低等动物（虫鳞介），最后到高等动物（禽兽人）。</p>
+<p><strong>林奈（Carl Linnaeus）搞生物分类法那是1735年的事儿了，李时珍比他早了将近两百年！</strong></p>
+<p>作为医疗信息化研究者，我不得不给李时珍竖起大拇指：“老李，你这架构设计，绝对是T4级别的架构师！你不仅做了数据清洗（去伪存真），还做了数据标准化（统一异名），最后还搞了一套高效的索引系统（分类法）。”</p>
+<p>他熬白了头，改了三次稿。<br><img src="/%E6%9D%8E%E6%97%B6%E7%8F%8D/file-20260104101252188.png" srcset="/img/loading.gif" lazyload></p>
+<p>每一个字，都是在油灯下一笔一划刻出来的。我看在眼里，痛在心里。这要是有一台电脑，哪怕是个iPad，老李也不至于累出一身病啊。</p>
+<hr>
+<h3 id="四、-黎明前的黑暗与永恒的丰碑"><a href="#四、-黎明前的黑暗与永恒的丰碑" class="headerlink" title="四、 黎明前的黑暗与永恒的丰碑"></a>四、 黎明前的黑暗与永恒的丰碑</h3><p>书写成了，但出版成了大问题。</p>
+<p>那时候没有“知识付费”，书商都是势利眼。《本草纲目》块头太大，刻板印刷成本极高，没人愿意接这单亏本生意。</p>
+<p>李时珍拖着病体，四处奔波献书。</p>
+<p>那一年，我在南京。看着已经60多岁的李时珍，背着沉重的书稿，在书坊门口一次次被拒绝。</p>
+<p>“白兄，”他声音嘶哑，“难道我这几十年的心血，真的要付诸东流吗？我不为名利，只求这书能传下去，让后人少吃错药，少死几个人。”</p>
+<p>我鼻头一酸。作为一名医生，我太理解这种心情了。这是<strong>医者仁心</strong>的极致体现。</p>
+<p>后来，终于有识货的人愿意刻印了。但是，李时珍的身体已经到了极限。</p>
+<p>万历二十一年（1593年）。李时珍躺在病床上，看着窗外的秋风。</p>
+<p>我握着他枯瘦的手，眼泪止不住地流：“老李，你放心。你的书一定会出版的。不仅会出版，还会传到日本、传到欧洲。达尔文那个大胡子老外，会称你的书是‘中国古代的百科全书’。五百年后，人们依然在读你的书，你的名字会刻在人类医学的丰碑上。”</p>
+<p>李时珍浑浊的眼睛里闪过一丝光彩：“真的吗？白兄……只要……只要对百姓有用，我就知足了……”</p>
+<p>他走了。没能亲眼看到《本草纲目》刻印出来的墨香。</p>
+<hr>
+<h3 id="五、-回到现代：白衣狼的沉思"><a href="#五、-回到现代：白衣狼的沉思" class="headerlink" title="五、 回到现代：白衣狼的沉思"></a>五、 回到现代：白衣狼的沉思</h3><p>一阵恍惚，我回到了现代的医院办公室。</p>
+<p>屏幕上的HIS系统依然闪烁，手中的鼠标依然冰冷。但我看着手里那瓶复方丹参滴丸，看着药房里琳琅满目的中成药，心情久久不能平静。</p>
+<p>我们今天享受的便捷医疗，我们引以为傲的循证医学，其实早在几百年前，就有一个倔强的老头，用他的双脚和生命，为我们铺下了第一块基石。</p>
+<p>李时珍不仅仅是个中医。</p>
+<p>他是一位伟大的博物学家。</p>
+<p>他是一位严谨的科研工作者。</p>
+<p>他更是一位有着极致追求的产品经理和大数据专家。</p>
+<p>他告诉我们：<strong>所有的理所当然，都值得重新审视；所有的权威定论，都必须经得起实践的检验。</strong></p>
+<p>在这个浮躁的年代，在这个大家都想走捷径、搞快钱的时代，李时珍的那股“傻劲儿”，那股为了一个真相爬山涉水、以身试毒的“轴劲儿”，才是我们最稀缺的资源。</p>
+<p><strong>致敬李时珍，致敬每一位在医学道路上死磕到底的求索者。</strong></p>
+<hr>
+<p><strong>（此处应有掌声，最好是那种经久不息的）</strong></p>
+<p>嘿，朋友！我是<strong>白衣狼</strong>。</p>
+<p>刚才这趟“穿越之旅”，有没有让你对李时珍老爷爷有了不一样的认识？如果觉得这个故事讲得还凑合，或者你也被老李的精神感动了哪怕一秒钟：</p>
+<p>👉 请关注我的公众号，我们一起深扒医学史的那些趣事儿，聊聊医疗圈的那些干货。</p>
+<p>👍 点个赞，让更多人看到这种“硬核”的医学精神。</p>
+<p>📢 转发到朋友圈，告诉大家：李时珍不只是课本上的画像，他是个有血有肉、超酷的Geek！</p>
+<p>💬 在评论区留言，如果你能穿越，你最想给李时珍带去什么现代装备？（我猜有人会说登山鞋，但我更想带个全自动指纹识别显微镜！）</p>
+<p><strong>我是白衣狼，我们在医学的星辰大海里，不见不散！</strong></p>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>这里写文章的正式标题</div>
+      <div>http://example.com/李时珍/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>白衣狼</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2026年1月4日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/%E5%8C%BB%E7%96%97%E6%9C%BA%E6%9E%84%E6%A3%80%E6%9F%A5%E6%A3%80%E9%AA%8C%E7%BB%93%E6%9E%9C%E4%BA%92%E8%AE%A4%E7%8E%87/" title="三甲复审新政来了：为了“互认率”这张旧船票，我差点和骨科主任打了一架">
+                        <span class="hidden-mobile">三甲复审新政来了：为了“互认率”这张旧船票，我差点和骨科主任打了一架</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+
+  
+
+</div>
+
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
